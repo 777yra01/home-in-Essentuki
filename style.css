@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(199, 199, 199);
+}
+
+h1 {
+    text-align: center;
+    color: rgba(45, 46, 35, 0.952);
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.yra {
+    width: 350px;
+    height: 250px;
+    transition: all 0.5s linear;
+}
+.yra:hover {
+    width: 370px;
+    height: 270px;
+    transition: all 0.3s linear;
+}
+
+.yra1 {
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    gap: 40px;
+    margin: 0 auto;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.yra2 {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.yra3 {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 5px dotted rgb(0, 0, 0);
+    margin: 40px;
+    background-color: orange;
+}
+
+.yra4 {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 5px dotted rgb(0, 0, 0);
+    background-color: rgb(255, 140, 0);
+    float: left;
+}
+
+.yra5 {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 5px dotted rgb(0, 0, 0);
+    margin: 40px;
+    background-color: rgb(255, 140, 0);
+    float: right;
+}
+
+.yra6 {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 5px dotted rgb(0, 0, 0);
+    margin: 40px;
+    background-color: rgb(255, 140, 0);
+}
+
+footer {
+    background-color: rgb(57, 57, 116);
+    color: whitesmoke;
+    padding: 25px;
+    width: 570px;
+    height: 20px;
+    float: right;
+    font-size: 15px;
+}
+
+@media (max-width: 480px) {
+    .yra1 {
+        grid-template-columns: repeat(1, 440px);
+    }
+}
